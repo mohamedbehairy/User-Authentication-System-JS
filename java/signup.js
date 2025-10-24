@@ -18,7 +18,7 @@ btn.addEventListener("click", function () {
     Swal.fire({
       title: "Invalid Form",
       text: "Please fill in all fields correctly before submitting.",
-      imageUrl: "../imgs/Invalid Form.webp",
+      imageUrl: "./imgs/Invalid Form.webp",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
@@ -39,7 +39,7 @@ btn.addEventListener("click", function () {
     Swal.fire({
       title: "Duplicate Name & Email",
       text: "Both the name and email are already registered. Please use different ones.",
-      imageUrl: "../imgs/Duplicate Name & Email.jpeg",
+      imageUrl: "./imgs/Duplicate Name & Email.jpeg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
@@ -51,7 +51,7 @@ btn.addEventListener("click", function () {
     Swal.fire({
       title: "Duplicate Name",
       text: "This name already exists. Please choose a different name.",
-      imageUrl: "../imgs/Duplicate Name.jpg",
+      imageUrl: "./imgs/Duplicate Name.jpg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
@@ -63,7 +63,7 @@ btn.addEventListener("click", function () {
     Swal.fire({
       title: "Duplicate Email",
       text: "This email is already registered. Please use another email address.",
-      imageUrl: "../imgs/Duplicate Email.jpeg",
+      imageUrl: "./imgs/Duplicate Email.jpeg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
@@ -85,7 +85,7 @@ btn.addEventListener("click", function () {
   Swal.fire({
     title: "User Added Successfully 🎉",
     showConfirmButton: false,
-    imageUrl: "../imgs/bravo.jpeg",
+    imageUrl: "./imgs/bravo.jpeg",
     imageWidth: 400,
     imageHeight: 200,
     imageAlt: "Custom image",

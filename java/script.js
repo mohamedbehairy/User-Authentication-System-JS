@@ -10,7 +10,7 @@ loginBtn.addEventListener("click", function () {
     Swal.fire({
       title: "Invalid Form",
       text: "Please fill in all fields correctly before submitting.",
-      imageUrl: "../imgs/Invalid Form.webp",
+      imageUrl: "./imgs/Invalid Form.webp",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
@@ -28,7 +28,7 @@ loginBtn.addEventListener("click", function () {
     Swal.fire({
       title: "Invalid Email",
       text: "We couldn’t find an account with this email address. Please check and try again.",
-      imageUrl: "../imgs/Invalid Email.jpeg",
+      imageUrl: "./imgs/Invalid Email.jpeg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
@@ -40,7 +40,7 @@ loginBtn.addEventListener("click", function () {
     Swal.fire({
       title: "Incorrect Password",
       text: "The password you entered is incorrect. Please try again.",
-      imageUrl: "../imgs/Incorrect Password.jpeg",
+      imageUrl: "./imgs/Incorrect Password.jpeg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
@@ -60,7 +60,7 @@ loginBtn.addEventListener("click", function () {
   Swal.fire({
     title: "Login Successful 🎉",
     text: `Welcome back, ${userFound.name}! You have successfully signed in.`,
-    imageUrl: "../imgs/login.jpeg",
+    imageUrl: "./imgs/login.jpeg",
     imageWidth: 400,
     imageHeight: 200,
     imageAlt: "Custom image",
