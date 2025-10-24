@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="icon" href="imgs/profile icon.png" />
+
+    <title>Login - Smart Login System</title>
+  </head>
+
+  <body>
+    <div class="auth-container">
+      <div class="auth-card fade-in">
+        <div class="brand-logo">
+          <h1>SmartLogin</h1>
+          <p>Welcome back</p>
+        </div>
+
+        <form class="auth-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+          </div>
+
+          <button type="button" class="btn btn-gold slide-up" id="login">
+            <i class="fas fa-sign-in-alt me-2"></i>
+            Login
+          </button>
+        </form>
+
+        <div class="text-center mt-4">
+          <p class="text-secondary">
+            Don't have an account?
+            <a href="signup.html" class="auth-link">Register now</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="java/bootstrap.bundle.min.js"></script>
+    <script src="java/script.js"></script>
+  </body>
+</html>

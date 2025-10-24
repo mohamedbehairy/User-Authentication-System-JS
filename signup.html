@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="icon" href="imgs/profile icon.png">
+    <title>Sign Up - Smart Login System</title>
+  </head>
+
+  <body>
+    <div class="auth-container">
+      <div class="auth-card fade-in">
+        <div class="brand-logo">
+          <h1>SmartLogin</h1>
+          <p>Create your account</p>
+        </div>
+
+        <!--$ inputs Values  -->
+
+        <form class="auth-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter your full name"
+            />
+            <div
+              class="alert alert-warning p-2 mx-1 my-2 d-none"
+              id="nameAlert"
+            >
+              Enter a valid full name (at least two words, letters only).
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
+            <div
+              class="alert alert-warning p-2 mx-1 my-2 d-none"
+              id="emailAlert"
+            >
+              Enter a valid email address (e.g., user@example.com ).
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              name="password"
+              placeholder="Create a strong password"
+            />
+            <div
+              class="alert alert-warning p-2 mx-1 my-2 d-none"
+              id="passwordAlert"
+            >
+              Password must be at least 6 characters long and contain only
+              letters or numbers.
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-gold slide-up " id="btn">
+            <i class="fas fa-user-plus me-2"></i>
+            Sign Up
+          </button>
+        </form>
+
+        <div class="text-center mt-4">
+          <p class="text-secondary">
+            Already have an account?
+            <a href="index.html" class="auth-link">Login here</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="java/bootstrap.bundle.min.js"></script>
+    <script src="java/signup.js"></script>
+  </body>
+</html>
