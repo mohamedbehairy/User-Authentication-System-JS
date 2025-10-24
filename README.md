@@ -48,5 +48,4 @@ The project allows users to **register, log in, and log out** while storing thei
 ---
 
 ## 🔗 **Project Link**  
-- **GitHub Repository:** [Smart Login System]([https://github.com/mohamedbehairy/E-commerce-project](https://mohamedbehairy.github.io/User-Authentication-System-JS/))  
-
+- **GitHub Repository:** [Smart Login System](https://mohamedbehairy.github.io/User-Authentication-System-JS/)  
